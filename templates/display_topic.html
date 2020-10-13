@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Displaying te data of Topic model</title>
+</head>
+<body>
+    <center>
+        <h1>Displaying te data of Topic model</h1>
+        <table border='1px'>
+            <tr><th>Topic_name</th></tr>
+
+            {% for topic in topics %}
+                <tr><td>{{topic.topic_name}}</td></tr>
+            {% endfor %}
+
+        </table>
+
+
+
+
+
+
+
+
+
+
+    </center>
+</body>
+</html>
